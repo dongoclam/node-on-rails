@@ -1,6 +1,6 @@
-const ApplicationController = require('./application_controller');
+const ApplicationController = require('./application_controller')
 
-class Home extends ApplicationController {
+class HomeController extends ApplicationController {
   index() {
     this.render({title: 'LamDo'})
   }
@@ -10,4 +10,4 @@ class Home extends ApplicationController {
   }
 }
 
-module.exports = Home
+module.exports = HomeController

@@ -1,6 +1,6 @@
-const ApplicationController = require('./application_controller');
+const ApplicationController = require('./application_controller')
 
-class User extends ApplicationController {
+class UsersController extends ApplicationController {
   index() {
     this.render({title: 'UserIndex'})
   }
@@ -10,4 +10,4 @@ class User extends ApplicationController {
   }
 }
 
-module.exports = User
+module.exports = UsersController

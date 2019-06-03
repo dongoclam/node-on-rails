@@ -5,9 +5,15 @@ class ApplicationController {
     this.router = router
   }
 
-  render(options={}) {
+  render(view, options) {
+    if(typeof view == 'object') {
+      options = view
+      view = this.viewPath()
+    }
+    view = view || this.viewPath()
+    options = options || {}
     options.layout = options.layout || this.layout()
-    this.res.render(this.viewPath(), options)
+    this.res.render(view, options)
   }
 
   viewPath() {
@@ -15,8 +21,8 @@ class ApplicationController {
   }
 
   layout() {
-    return 'layouts/main'
+    return 'layouts/social'
   }
 }
 
-module.exports = ApplicationController;
+module.exports = ApplicationController

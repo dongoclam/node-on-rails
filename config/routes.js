@@ -1,7 +1,10 @@
 const routes = require('../lib/journey/routes')
 
 routes.get({path: '/', to: 'home#index'})
-routes.get({path: '/about', to: 'home#show'})
+routes.get({path: '/facebook', to: 'socials#index'})
+routes.post({path: '/facebook', to: 'socials#create'})
+routes.get({path: '/facebook/login', to: 'socials#edit'})
 routes.resources({path: '/users', except: ['destroy']})
+routes.resources({path: '/admin/dashboard', only: ['index']})
 
 module.exports = routes
