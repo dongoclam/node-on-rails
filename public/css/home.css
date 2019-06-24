@@ -1,0 +1,217 @@
+body {
+  background: #272727;
+  font-family: "Quicksand", sans-serif;
+  color: rgba(0, 0, 0, 0.72);
+  font-weight: 500;
+  position: relative;
+  overflow: hidden;
+}
+
+li {
+  text-decoration: none;
+  list-style: none;
+}
+
+.page-content {
+  height: 100%;
+  padding: 0;
+}
+
+/*=============== @dropzone ==============*/
+.select-file {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  display: table;
+}
+
+#dropzone {
+  cursor: pointer;
+  background: transparent;
+  border-radius: 10px;
+  border: 2px dashed #ffffff85;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.dropzone-panel {
+  color: #ffffffe0;
+}
+
+.dropzone-panel i {
+  font-size: 4rem;
+}
+
+.dropzone-panel .dropzone-title {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.dropzone-panel .dropzone-select {
+  font-size: 1rem;
+  color: #bcbcbc;
+}
+
+/*=============== @playlist-action ==============*/
+.open-play-list {
+  width: 100px;
+  height: 100px;
+  background: #ffffff2e;
+  z-index: 1000;
+  margin: auto;
+  position: fixed;
+  bottom: -66px;
+  left: calc(50vw - 50px);
+  border-radius: 100px;
+  text-align: center;
+  padding-top: 5px;
+  cursor: pointer;
+}
+
+.open-play-list i {
+  font-size: 400;
+  font-size: 1.6rem;
+  color: #939393;
+  transition: all .5s ease-out;
+}
+
+.open-play-list.close i {
+  transform: rotate(180deg)
+}
+
+/*=============== @video =================*/
+#video-container {
+  width: 45%;
+  position: absolute;
+  top: 55px;
+  right: 50px;
+  margin: 0 auto;
+}
+
+video {
+  width: 100%;
+}
+
+.tree {
+  padding: 0;
+}
+
+/*=============== @tree-file ============*/
+#tree-file {
+  overflow: hidden;
+  width: fit-content;
+  position: absolute;
+  padding: 0 50px;
+  top: 100vh;
+  width: 100%;
+  height: 100vh;
+  background: #1b1b1b;
+  transition: all .5s ease-out;
+}
+
+#tree-file.open {
+  transform:translateY(-100%);
+}
+
+.tree-file-close {
+  text-align: right;
+  padding: 10px 20px;
+  height: 50px;
+}
+
+.tree-file-close i {
+  color: #b3b3b3;
+  font-size: 1.8rem;
+}
+
+#tree-file-scroll {
+  width: 50%;
+  overflow: auto;
+  height: calc(100vh - 100px);
+}
+
+.tree-file-action {
+  display: flex;
+  color: #ffffff54;
+  margin-left: 20px;
+  padding-top: 20px;
+  font-size: .9rem;
+}
+
+.tree-file-action .playlist {
+  text-transform: uppercase;
+}
+
+.tree-file-action i {
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.tree li {
+  display: flex;
+  padding-left: 30px;
+  transition: all .2s ease-out;
+}
+
+.tree li:hover, .tree li.active {
+  background: #00000030;
+}
+
+.tree li:hover .remove {
+  opacity: 1;
+}
+
+.tree li span {
+  width: 20px;
+  text-align: right;
+  line-height: 40px;
+  font-size: .9rem;
+  color: #ffffff4a;
+}
+
+.tree li .remove {
+  opacity: 0;
+  width: 40px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.tree li .remove:hover {
+  color: #fd5d93;
+}
+
+.tree .tree {
+  padding-left: 15px;
+}
+
+.tree-title {
+  font-weight: 600;
+}
+
+.tree-title::before {
+  content: "\f07b";
+  font-size: 1rem;
+  padding-right: 5px;
+  font-weight: 400;
+  font-family: 'Font Awesome 5 Pro';
+}
+
+.tree-link {
+  display: inline-block;
+  width: 100%;
+  padding: 10px 20px;
+  color: #ffffffd9 !important;
+  font-size: .9rem;
+  cursor: pointer;
+}
+
+/*=============== @scrollbar ============*/
+.scrollbar-track {
+  background: transparent !important;
+}
+
+.scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.22) !important;
+}

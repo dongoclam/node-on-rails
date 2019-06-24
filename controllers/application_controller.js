@@ -21,7 +21,7 @@ class ApplicationController {
   }
 
   layout() {
-    return 'layouts/social'
+    return 'layouts/application'
   }
 }
 

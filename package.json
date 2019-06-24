@@ -10,9 +10,17 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.0.19",
+    "@google-cloud/speech": "^3.2.1",
+    "dotenv": "^8.0.0",
     "express": "^4.17.1",
+    "express-fileupload": "^1.1.5",
+    "fluent-ffmpeg": "^2.1.2",
+    "formidable": "^1.2.1",
     "hbs": "^4.0.4",
     "lodash": "^4.17.11",
-    "puppeteer": "^1.17.0"
+    "microsoft-cognitiveservices-speech-sdk": "^1.6.0",
+    "puppeteer": "^1.17.0",
+    "uuid": "^3.3.2"
   }
 }

@@ -6,7 +6,8 @@ class Config {
 }
 
 Config.rootPath = rootPath
-Config.port = process.env.PORT || 3000
+Config.uploadDir = path.join(rootPath, 'uploads/')
+Config.port = process.env.PORT || 8080
 Config.publicPath = path.join(rootPath, 'public')
 Config.viewEngine = 'hbs'
 Config.partialsPath = path.join(rootPath, 'views/partials')

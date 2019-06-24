@@ -6,5 +6,6 @@ routes.post({path: '/facebook', to: 'socials#create'})
 routes.get({path: '/facebook/login', to: 'socials#edit'})
 routes.resources({path: '/users', except: ['destroy']})
 routes.resources({path: '/admin/dashboard', only: ['index']})
+routes.post({path: '/upload', to: 'uploads#create'})
 
 module.exports = routes
