@@ -21,6 +21,10 @@ class SocialsController extends ApplicationController {
     var content = await FbCrawler.loginPageContent()
     this.render({content: content})
   }
+
+  layout() {
+    return 'layouts/social'
+  }
 }
 
 module.exports = SocialsController

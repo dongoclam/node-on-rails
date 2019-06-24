@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "triple-grove-244306",
+  "private_key_id": "19bd58a2078539d927c04cee5790af15b5640124",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCmsIsAxBo0sSQG\nw7Rv2FwNEh7epJv9bTnSAsEbVxyO8e9Wq1UikviJgAdyNmeTmAI8+YWYHumZq3a+\no0dh5QQcpFf7iA9whxnISQIBfSDTKJxOYgTEBYnKSGxZfOxEJoqCh4QFEZPfEVw6\nAaGmE79uXBttsZIHW0K88+TujH5S51yMe4kM/BEaRUyUJOcrDF02ECMixXPc1iSE\nK5AR1wPmmR732gLXa+lCs/KEwtzYtpSqB5sxfySugYXutv5uQH2AfrAuli6eiLpC\nIe4+Cz8V9BDJf1orIkorXktayRQBJPCpumIzmXziKuOIP1Uzw7hA0aATgHk9UnYW\n/dCnNT09AgMBAAECggEABPo+nF4+vhYQElejurdGQGmrHFDkC5RIZroIVC2sv6P/\n1qG1IBwtacW18zYmr6SZZIK694jsxtb068pqZkT1c3mA2xT8CQsvvOhZM/wtj8Cl\nsj2BEO1taOnyulVdpMdV2YH8cj5NIRsemujTj+cFD2GWvBbSWn/iJUxPKMRvPUB5\nDPiSDpF7pLz4Xx5fOl4eiqPNCsPB58mUmXdHfpMQvFtVJTvK12GYj0MHJC6J8eoG\nWfbEe37MWPQySG8uheYHkVcdYLlGDWRJI8apgivjSCnVuLctXXkaWFHOKwa3PcNW\nrGlgTzHaMcVULhttrOZhpK0qN6p3iFcGke7rr2IeTQKBgQDXWgS7a+n5nKHMjvQE\n2GOjpjW8Qgk0rzzM4XChZjRSjziVIxC+0tVORUJrdepvVIccI1wxaGKU8J32cQE9\n/ghubys0De+iTACaSAU/BfAUA1z6xpoFDLBlfaRG2KsPF8Z44SIN/ZdLuqD7r1MZ\nC10n/ynlsz1rbfQKtJr1uICWywKBgQDGJyIIegSXIoNOTMdnZKpv8i3m3omqX4F7\n3Vmc7onMO8RIWdSi9w6y8oJZggCSFachJRFjeOMGSk9zJy6gxW+5Vk5KDCia4ueM\naZcWc7Rr0W4oH0ueBvfeeaTDH8LwT7gl7XpHURDKxw+7tN6osHAsLWeDU3vM88rf\n8Y/GF+/zFwKBgQCaed05IEDXKA88MDNEooBe7KRRJcF6xFVF1lU3wZu4uTnqaRvi\n9lPCcJYjhZMkRysf+RFx86H7mtqE5Czy7h3YMfB4x6Jk9kXcZds1iSndAUiaLwpe\nouqJ8uV7WILkMbbSERSfmpAD550AzZQ7O9aYEUZZmght3pKXd1RM/QtonwKBgATz\n2W/ozNCSNkHwvVMiOvhNT0Rj74Doni3gXGsFsz/9hmxggmYIUr+6O/PMwgLks6aq\nbILV9KalmNLB+fJevOoe9Bn5r9IfNbZWtUYEYlAHjf9GuPccKXnQBIQz+QVUmL+p\n7dJ2fjrzOrtwS9hfgI46HEo1/fQja8CpIvTKiF7FAoGBAJK2mXBUjZ+12YZ/GtfA\nZnksYoKnrd6HBF8z3u9X/KoHVBQQykw3gCjyAKM4mMWvRA/bDe1MLE9/oNznlEVH\nka3EEBw+U7TkbQ8HOferOBySyfyeWiRBqbVlEnKDCtBvCLn6pnFk0AQ/C9TJUglo\nQQWYOumOa3QhM8jHPndaChIf\n-----END PRIVATE KEY-----\n",
+  "client_email": "dongoclam@triple-grove-244306.iam.gserviceaccount.com",
+  "client_id": "107840848987803531633",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/dongoclam%40triple-grove-244306.iam.gserviceaccount.com"
+}
